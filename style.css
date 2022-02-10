@@ -1,0 +1,25 @@
+body{
+    font-family: Arial;
+    background-color: #21222c;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #03e0ff;
+    padding: 1em 3em;
+    border-radius: 1em;
+    transition: 0.3s ease-in-out all;
+}
+
+a:hover{
+    background-color: #02beff;
+}
