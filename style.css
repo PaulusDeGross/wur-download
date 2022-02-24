@@ -1,16 +1,17 @@
-body{
+body {
     font-family: Arial;
     background-color: #21222c;
     color: white;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-a{
+a {
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -18,8 +19,9 @@ a{
     padding: 1em 3em;
     border-radius: 1em;
     transition: 0.3s ease-in-out all;
+    margin-top: 1em;
 }
 
-a:hover{
+a:hover {
     background-color: #02beff;
 }
